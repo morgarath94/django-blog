@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.views.generic.list import ListView
+from django.views.generic.detail import DetailView
 
 # Create your views here.
 from django.http.response import HttpResponse, Http404
@@ -16,17 +18,14 @@ def stub_view(request, *args, **kwargs):
         body += '\n'.join(['t%s: %s' % k for k in kwargs])
     return HttpResponse(body, content_type='text/plain')
 
-def list_view(request):
-    published_posts = Post.objects.exclude(published_date__exact=None)
-    posts = published_posts.order_by('-published_date')
-    context = {'posts': posts}
-    return render(request, 'blogging/list.html', context)
 
-def detail_view(request, post_id):
-    published = Post.objects.exclude(published_date__exact=None)
-    try:
-        post = published.get(pk=post_id)
-    except Post.DoesNotExist:
-        raise Http404('Post does not exist')
-    context = {'post': post}
-    return render(request, 'blogging/detail.html', context)
+class PostListView(ListView):
+    model = Post
+    queryset = Post.objects.exclude(published_date__exact=None).order_by('-published_date')
+    template_name = 'blogging/list.html'
+
+
+class PostDetailView(DetailView):
+    model = Post
+    queryset = Post.objects.exclude(published_date__exact=None)
+    template_name = 'blogging/detail.html'
