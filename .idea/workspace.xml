@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="added config file for heroku" />
+    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="added Procfile file for heroku">
+      <change afterPath="$PROJECT_DIR$/blogging/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogging/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogging/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogging/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogging/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +93,7 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "heroku-deployment",
+    "git-widget-placeholder": "add-on-3",
     "last_opened_file_path": "C:/Users/nicho/PycharmProjects/UWC2-PYTHON/django-blog/mysite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -162,7 +170,7 @@
       <workItem from="1733769684066" duration="2250000" />
       <workItem from="1733788733245" duration="92000" />
       <workItem from="1733788831709" duration="2850000" />
-      <workItem from="1733856878140" duration="9447000" />
+      <workItem from="1733856878140" duration="14933000" />
     </task>
     <task id="LOCAL-00001" summary="commiting git ignore">
       <option name="closed" value="true" />
@@ -300,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733866916311</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added Procfile file for heroku">
+      <option name="closed" value="true" />
+      <created>1733868132810</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733868132810</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +350,7 @@
     <MESSAGE value="code reformatted using black" />
     <MESSAGE value="added black to cli and added packages to support heroku deployment" />
     <MESSAGE value="added config file for heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="added config file for heroku" />
+    <MESSAGE value="added Procfile file for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Procfile file for heroku" />
   </component>
 </project>
