@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="setting up to change root to mysite directory to expose manage.py" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;morgarath94&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/morgarath94/django-blog.git&quot;,
+    &quot;accountId&quot;: &quot;771a6ad2-a2b0-42f8-9ac0-1018b9265063&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2p2HwrQgCuMRzgQ6IYUZTLjORM6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/nicho/PycharmProjects/UWC2-PYTHON/django-blog/mysite",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicho\PycharmProjects\UWC2-PYTHON\django-blog\mysite\blogging\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicho\PycharmProjects\UWC2-PYTHON\django-blog\mysite" />
+      <recent name="C:\Users\nicho\PycharmProjects\UWC2-PYTHON\django-blog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="django-blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django-blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="" />
+      <created>1731957492706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731957492706</updated>
+      <workItem from="1731957494166" duration="808000" />
+      <workItem from="1731958319138" duration="12684000" />
+      <workItem from="1732301458026" duration="3708000" />
+      <workItem from="1732557349385" duration="3242000" />
+      <workItem from="1733156523624" duration="9460000" />
+      <workItem from="1733363489552" duration="6934000" />
+      <workItem from="1733518656176" duration="2199000" />
+      <workItem from="1733520878874" duration="213000" />
+      <workItem from="1733521099496" duration="842000" />
+      <workItem from="1733522014248" duration="911000" />
+      <workItem from="1733522939078" duration="2454000" />
+      <workItem from="1733769684066" duration="2250000" />
+      <workItem from="1733788733245" duration="92000" />
+    </task>
+    <task id="LOCAL-00001" summary="commiting git ignore">
+      <option name="closed" value="true" />
+      <created>1731957559706</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731957559706</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson 7 activity complete">
+      <option name="closed" value="true" />
+      <created>1731971549419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731971549419</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 7 assignment complete">
+      <option name="closed" value="true" />
+      <created>1731973398949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731973398949</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson 8 assignment complete">
+      <option name="closed" value="true" />
+      <created>1733166454907</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733166454907</updated>
+    </task>
+    <task id="LOCAL-00005" summary="reverts previous commit">
+      <option name="closed" value="true" />
+      <created>1733519956455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733519956455</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commiting untracked files">
+      <option name="closed" value="true" />
+      <created>1733522188771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733522188772</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dev branch merged">
+      <option name="closed" value="true" />
+      <created>1733523233289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733523233289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="trying to get CI to see manage.py">
+      <option name="closed" value="true" />
+      <created>1733524922887</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733524922887</updated>
+    </task>
+    <task id="LOCAL-00009" summary="trying to get CI to see manage.py attempt 2">
+      <option name="closed" value="true" />
+      <created>1733524999191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733524999191</updated>
+    </task>
+    <task id="LOCAL-00010" summary="setting up to change root to mysite directory to expose manage.py">
+      <option name="closed" value="true" />
+      <created>1733788680055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733788680055</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commiting git ignore" />
+    <MESSAGE value="lesson 7 activity complete" />
+    <MESSAGE value="lesson 7 assignment complete" />
+    <MESSAGE value="lesson 8 assignment complete" />
+    <MESSAGE value="reverts previous commit" />
+    <MESSAGE value="commiting untracked files" />
+    <MESSAGE value="dev branch merged" />
+    <MESSAGE value="trying to get CI to see manage.py" />
+    <MESSAGE value="trying to get CI to see manage.py attempt 2" />
+    <MESSAGE value="setting up to change root to mysite directory to expose manage.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting up to change root to mysite directory to expose manage.py" />
+  </component>
+</project>
