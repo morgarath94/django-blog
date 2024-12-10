@@ -23,13 +23,13 @@ from rest_framework import routers
 from blogging.views import PostViewSet, UserViewSet, CategoryViewSet
 
 router = routers.DefaultRouter()
-router.register(r'posts', PostViewSet)
-router.register(r'users', UserViewSet)
-router.register(r'categories', CategoryViewSet)
+router.register(r"posts", PostViewSet)
+router.register(r"users", UserViewSet)
+router.register(r"categories", CategoryViewSet)
 
 urlpatterns = [
-    path('api/', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path("api/", include(router.urls)),
+    path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
     path("admin/", admin.site.urls),
     path("", include("blogging.urls")),
     path("polling/", include("polling.urls")),

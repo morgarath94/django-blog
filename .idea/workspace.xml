@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="added Procfile file for heroku">
+    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="added api capability">
       <change afterPath="$PROJECT_DIR$/blogging/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogging/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogging/tests.py" afterDir="false" />
@@ -170,7 +170,7 @@
       <workItem from="1733769684066" duration="2250000" />
       <workItem from="1733788733245" duration="92000" />
       <workItem from="1733788831709" duration="2850000" />
-      <workItem from="1733856878140" duration="14933000" />
+      <workItem from="1733856878140" duration="15266000" />
     </task>
     <task id="LOCAL-00001" summary="commiting git ignore">
       <option name="closed" value="true" />
@@ -316,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733868132810</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added api capability">
+      <option name="closed" value="true" />
+      <created>1733874164898</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733874164898</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +359,7 @@
     <MESSAGE value="added black to cli and added packages to support heroku deployment" />
     <MESSAGE value="added config file for heroku" />
     <MESSAGE value="added Procfile file for heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Procfile file for heroku" />
+    <MESSAGE value="added api capability" />
+    <option name="LAST_COMMIT_MESSAGE" value="added api capability" />
   </component>
 </project>

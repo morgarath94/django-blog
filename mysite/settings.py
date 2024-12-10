@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "polling",
     "blogging",
-    'rest_framework',
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -128,6 +128,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Adding pagination for API
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 10,
 }
