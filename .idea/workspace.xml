@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="changed root to mysite directory to expose manage.py" />
+    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="changed ci to match new structure">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +175,7 @@
       <workItem from="1733522939078" duration="2454000" />
       <workItem from="1733769684066" duration="2250000" />
       <workItem from="1733788733245" duration="92000" />
-      <workItem from="1733788831709" duration="313000" />
+      <workItem from="1733788831709" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="commiting git ignore">
       <option name="closed" value="true" />
@@ -262,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733788995719</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changed root to mysite directory to expose manage.py">
+      <option name="closed" value="true" />
+      <created>1733789220165</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733789220165</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changed ci to match new structure">
+      <option name="closed" value="true" />
+      <created>1733789405708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733789405708</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +310,7 @@
     <MESSAGE value="trying to get CI to see manage.py attempt 2" />
     <MESSAGE value="setting up to change root to mysite directory to expose manage.py" />
     <MESSAGE value="changed root to mysite directory to expose manage.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed root to mysite directory to expose manage.py" />
+    <MESSAGE value="changed ci to match new structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed ci to match new structure" />
   </component>
 </project>
