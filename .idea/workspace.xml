@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="added black to requirements.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/django-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-blog.iml" afterDir="false" />
+    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="code reformatted using black">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogging/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogging/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,7 @@
       <workItem from="1733769684066" duration="2250000" />
       <workItem from="1733788733245" duration="92000" />
       <workItem from="1733788831709" duration="2850000" />
-      <workItem from="1733856878140" duration="5142000" />
+      <workItem from="1733856878140" duration="7503000" />
     </task>
     <task id="LOCAL-00001" summary="commiting git ignore">
       <option name="closed" value="true" />
@@ -280,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733791006746</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="code reformatted using black">
+      <option name="closed" value="true" />
+      <created>1733862634486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733862634486</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +318,7 @@
     <MESSAGE value="changed root to mysite directory to expose manage.py" />
     <MESSAGE value="changed ci to match new structure" />
     <MESSAGE value="added black to requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added black to requirements.txt" />
+    <MESSAGE value="code reformatted using black" />
+    <option name="LAST_COMMIT_MESSAGE" value="code reformatted using black" />
   </component>
 </project>
