@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="changed ci to match new structure">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="added black to requirements.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/django-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogging/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogging/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +29,6 @@
     <excluded-from-favorite>
       <branch-storage>
         <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="main" />
-              </list>
-            </value>
-          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -48,13 +42,6 @@
     <favorite-branches>
       <branch-storage>
         <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="dev" />
-              </list>
-            </value>
-          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -95,22 +82,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nicho/PycharmProjects/UWC2-PYTHON/django-blog/mysite&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.django-blog.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/nicho/PycharmProjects/UWC2-PYTHON/django-blog/mysite",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nicho\PycharmProjects\UWC2-PYTHON\django-blog\mysite\blogging\static" />
@@ -128,6 +117,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysite.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -175,7 +165,8 @@
       <workItem from="1733522939078" duration="2454000" />
       <workItem from="1733769684066" duration="2250000" />
       <workItem from="1733788733245" duration="92000" />
-      <workItem from="1733788831709" duration="1574000" />
+      <workItem from="1733788831709" duration="2850000" />
+      <workItem from="1733856878140" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="commiting git ignore">
       <option name="closed" value="true" />
@@ -281,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733789405708</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added black to requirements.txt">
+      <option name="closed" value="true" />
+      <created>1733791006746</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733791006746</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +310,7 @@
     <MESSAGE value="setting up to change root to mysite directory to expose manage.py" />
     <MESSAGE value="changed root to mysite directory to expose manage.py" />
     <MESSAGE value="changed ci to match new structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed ci to match new structure" />
+    <MESSAGE value="added black to requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added black to requirements.txt" />
   </component>
 </project>

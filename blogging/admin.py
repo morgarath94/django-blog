@@ -11,9 +11,11 @@ class CategoryInline(admin.TabularInline):
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    inlines = [CategoryInline,]
+    inlines = [
+        CategoryInline,
+    ]
 
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
-    exclude = ('posts',)
+    exclude = ("posts",)
