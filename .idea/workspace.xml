@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="code reformatted using black">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
+    <list default="true" id="bb4d9883-bbd3-4dcf-b54d-8e2714406400" name="Changes" comment="added black to cli and added packages to support heroku deployment">
+      <change afterPath="$PROJECT_DIR$/mysite/heroku.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "heroku-deployment",
     "last_opened_file_path": "C:/Users/nicho/PycharmProjects/UWC2-PYTHON/django-blog/mysite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -165,7 +165,7 @@
       <workItem from="1733769684066" duration="2250000" />
       <workItem from="1733788733245" duration="92000" />
       <workItem from="1733788831709" duration="2850000" />
-      <workItem from="1733856878140" duration="7503000" />
+      <workItem from="1733856878140" duration="8694000" />
     </task>
     <task id="LOCAL-00001" summary="commiting git ignore">
       <option name="closed" value="true" />
@@ -287,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733862634486</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added black to cli and added packages to support heroku deployment">
+      <option name="closed" value="true" />
+      <created>1733865794653</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733865794653</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +327,7 @@
     <MESSAGE value="changed ci to match new structure" />
     <MESSAGE value="added black to requirements.txt" />
     <MESSAGE value="code reformatted using black" />
-    <option name="LAST_COMMIT_MESSAGE" value="code reformatted using black" />
+    <MESSAGE value="added black to cli and added packages to support heroku deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added black to cli and added packages to support heroku deployment" />
   </component>
 </project>
